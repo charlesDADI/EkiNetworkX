@@ -5,17 +5,17 @@ from setuptools import setup, find_packages
  
 # notez qu'on import la lib
 # donc assurez-vous que l'importe n'a pas d'effet de bord
-import sm_lib
+import ekiNx.core
  
 # Ceci n'est qu'un appel de fonction. Mais il est trèèèèèèèèèèès long
 # et il comporte beaucoup de paramètres
 setup(
  
     # le nom de votre bibliothèque, tel qu'il apparaitre sur pypi
-    name='EkiNetworkX',
+    name='ekiNx',
  
     # la version du code
-    version=EkiNetworkX.__version__,
+    version=ekiNx.__version__,
  
     # Liste les packages à insérer dans la distribution
     # plutôt que de le faire à la main, on utilise la foncton
@@ -53,7 +53,7 @@ setup(
     include_package_data=True,
  
     # Une url qui pointe vers la page officielle de votre lib
-    url='https://github.com/charlesDADI/EkiNetworkX',
+    url='https://github.com/charlesDADI/ekiNx',
  
     # Il est d'usage de mettre quelques metadata à propos de sa lib
     # Pour que les robots puissent facilement la classer.
@@ -81,7 +81,7 @@ setup(
     # La syntaxe est "nom-de-commande-a-creer = package.module:fonction".
     entry_points = {
         'console_scripts': [
-            'EkiNetworkX-lib = EkiNetworkX.core:FromDataFrame',
+            'ekiNx-lib = ekiNx.core:proclamer',
         ],
     },
  

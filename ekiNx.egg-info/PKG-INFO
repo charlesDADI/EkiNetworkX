@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: ekiNx
+Version: 0.0.1
+Summary: This module provides complement functions for lib NetworkX
+Home-page: https://github.com/charlesDADI/ekiNx
+Author: Charles-Abner DADI @Ekimetrics
+Author-email: charles-abner.dadi@ekimetrics.com
+License: WTFPL
+Description: EkiNetworkX  - Custom functions to compute networkX graph
+        ========================================================
+        
+        This module provides complement functions for lib NetworkX
+        - Function to  compute bipartite  from two columns of nodes
+            *understand third columns containing weight
+            *
+        - Function to compute graph from a pandas adjancy matrix
+        NetworkX graphs and project it on one dimension.
+        
+        
+        Install with pip:
+        
+            pip install EkiNetworkX
+        
+        Example of usage:
+        
+            >>> from EkiNetworkX import test1
+            >>> proclamer()
+        
+        Ce code est sous licence WTFPL.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7.6
+Classifier: Topic :: Communications

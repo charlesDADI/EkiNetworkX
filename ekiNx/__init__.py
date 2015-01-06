@@ -18,4 +18,5 @@ from core import graphFromPandasAdjancyMatrix
 from core import mapBipartite
 from core import projectGraph
 from core import exportGEXF
+from core import proclamer
 

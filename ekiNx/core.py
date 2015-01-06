@@ -104,20 +104,21 @@ def exportGEXF(graph,path_out):
     except:
         print "Unexpected error:", sys.exc_info()[0]
         
-        
-if __name__ == '__main__':
-    
+def test():
     u = 'customer'
     v='products'
-    
     res = FromDataFrame(data, u, v )
     U = res[0]
     V = res[1]
     A = res[2]
     E = res[3]
     g = mapBipartite(U,V)
-    
     g_projected = projectGraph(g, V, jaccard_distance, plot = 1)
-    
     exportGEXF(g_projected,path_out)
+        
+def proclamer():
+    print "[%s] EkiNetworkX" % datetime.now()
+    
+if __name__ == '__main__':
+    proclamer()
 
