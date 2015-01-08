@@ -1,4 +1,16 @@
 ##EkiNetworkX  - Custom functions to compute networkX graph
+
+
+========================================================
+### INSTALL
+Install with pip:
+
+    pip install EkiNetworkX
+
+Example of usage:
+
+    >>> from EkiNetworkX import test1
+    >>> proclamer()
 ========================================================
 
 ### This module provides complement functions for lib NetworkX
@@ -47,14 +59,5 @@ _Function to  compute bipartite graph and project to one set of nodes_
         each node contain is label with column label
 
 ========================================================
-### INSTALL
-Install with pip:
-
-    pip install EkiNetworkX
-
-Example of usage:
-
-    >>> from EkiNetworkX import test1
-    >>> proclamer()
 
 Ce code est sous licence WTFPL.
