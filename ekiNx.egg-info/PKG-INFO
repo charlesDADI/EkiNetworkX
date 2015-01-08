@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: ekiNx
-Version: 0.0.1
+Version: 0.0.3
 Summary: This module provides complement functions for lib NetworkX
 Home-page: https://github.com/charlesDADI/ekiNx
 Author: Charles-Abner DADI @Ekimetrics

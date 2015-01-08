@@ -9,7 +9,7 @@ NetworkX graphs and project it on one dimension.
 
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.3"
 
 from core import jaccard_distance
 from core import inverse_norm1

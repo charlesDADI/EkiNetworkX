@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jan  6 14:53:36 2015
-@author: charles-abner
+
+1 - The preferred data format for input is a pandas dataframe with
+specific columns name for nodes projected and nodes to project.
+In these case you should use nodeSetsFromDataframe function 
+to convert data and extract nodes
 """
 import sys
 import os

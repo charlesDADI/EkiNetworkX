@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jan  6 14:53:36 2015
-@author: charles-abner
+Compute a weighted biGraph and project 
 """
 import sys
 import os
