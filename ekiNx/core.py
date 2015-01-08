@@ -110,7 +110,7 @@ def projectGraph(biGraph,V, weight_function, plot = 0):
     return projected_graph
 
 
-def graphFromPandasAdjancyMatrix(data):
+def graphFromPandasAdjancyMatrix(data ,plot=None):
 
     """map nodes and edges from adjancy matrix
     -------------------------------------------
@@ -129,6 +129,8 @@ def graphFromPandasAdjancyMatrix(data):
     g = nx.from_numpy_matrix(A)
     nodes_label = {key: value for (key, value) in enumerate(V)}
     g = nx.relabel_nodes(g,nodes_label)
+    if(plot==1):
+        nx.draw(g)
     return g
 
 def exportGEXF(graph,path_out):
@@ -138,18 +140,18 @@ def exportGEXF(graph,path_out):
         print " export to " + path_out + " is succeeded"
     except:
         print "Unexpected error:", sys.exc_info()[0]
-        
-def test():
-    u = 'index'
-    v='Chaine'
-    res = FromDataFrame(data, u, v )
-    U = res[0]
-    V = res[1]
-    A = res[2]
-    E = res[3]
-    g = mapBipartite(U,V,E)
-    g_projected = projectGraph(g, V, jaccard_distance, plot = 1)
-    exportGEXF(g_projected,path_out)
+#        
+#def test():
+#    u = 'index'
+#    v=  'Chaine'
+#    res = FromDataFrame(data, u, v )
+#    U = res[0]
+#    V = res[1]
+#    A = res[2]
+#    E = res[3]
+#    g = mapBipartite(U,V,E)
+#    g_projected = projectGraph(g, V, jaccard_distance, plot = 1)
+#    exportGEXF(g_projected,path_out)
         
 def proclamer():
     print " EkiNetworkX" 
