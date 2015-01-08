@@ -3,7 +3,7 @@
 
 ##This module provides complement functions for lib NetworkX
 _Function to  compute bipartite graph and project to one set of nodes_
-* FromDataFrame :
+1. FromDataFrame :
 _INPUT:_
     *data is a pandas dataframe
     *u is the name of column  for node 'projected'
