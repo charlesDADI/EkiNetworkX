@@ -73,6 +73,19 @@ def FromDataFrame(data,u,v,w=None,alpha=None):
 def mapBipartite(U,V,E):
     """define bipartite graph, compute list 
     of egdes from nodes and add nodes|edges to graph"""
+    """-------------------------------------------
+    INPUT: 
+    -------------------------------------------
+    U nodes 'projected'
+    V nodes to project
+    E: edges with weight attributes if weight columns filled 
+    
+    -------------------------------------------
+    OUTPUT:
+    -------------------------------------------
+    g: networkX biGraph 
+    
+    """    
     g = nx.Graph()
     g.add_nodes_from(V, bipartite=0)
     g.add_nodes_from(U, bipartite=1)
