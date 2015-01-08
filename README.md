@@ -1,9 +1,9 @@
-#EkiNetworkX  - Custom functions to compute networkX graph
+##EkiNetworkX  - Custom functions to compute networkX graph
 ========================================================
 
-##This module provides complement functions for lib NetworkX
+### This module provides complement functions for lib NetworkX
 _Function to  compute bipartite graph and project to one set of nodes_
-* FromDataFrame :
+### __FromDataFrame__ :
 * _INPUT:_
 
     * data is a pandas dataframe
