@@ -4,13 +4,13 @@
 ##This module provides complement functions for lib NetworkX
 _Function to  compute bipartite graph and project to one set of nodes_
 * FromDataFrame :
-_INPUT:_
+* _INPUT:_
 
-    *data is a pandas dataframe
-    *u is the name of column  for node 'projected'
-    *v is the name of column for node to project
-    *w is the name of column for weight
-    *alpha is a threshold to map or not a edge    
+    * data is a pandas dataframe
+    * u is the name of column  for node 'projected'
+    * v is the name of column for node to project
+    * w is the name of column for weight
+    * alpha is a threshold to map or not a edge    
 _OUTPUT:_
 
 	*compute numpy array  (dim 2 N) 
