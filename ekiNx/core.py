@@ -154,7 +154,7 @@ def exportGEXF(graph,path_out):
 #    exportGEXF(g_projected,path_out)
         
 def proclamer():
-    print " EkiNetworkX" 
+    print " Hello on ekiNx" 
     
 if __name__ == '__main__':
     proclamer()

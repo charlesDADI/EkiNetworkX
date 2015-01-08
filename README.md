@@ -5,12 +5,12 @@
 ### INSTALL
 Install with pip:
 
-    pip install EkiNetworkX
+    pip install ekiNx
 
 Example of usage:
 
-    >>> from EkiNetworkX import test1
-    >>> proclamer()
+    >>> from ekiNx import core
+    >>> core.proclamer()
 ========================================================
 
 ### This module provides complement functions for lib NetworkX
