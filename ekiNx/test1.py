@@ -6,7 +6,7 @@ Created on Tue Jan  6 14:53:36 2015
 import sys
 import os
 import pandas as pd
-import core
+from ekiNx import core
 
 columns = ['customer' , 'products']
 content    = [['virginie','virginie','virginie','emilie','julie','patrick'],
