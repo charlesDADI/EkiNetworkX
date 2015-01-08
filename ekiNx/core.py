@@ -84,7 +84,6 @@ def mapBipartite(U,V,E):
     OUTPUT:
     -------------------------------------------
     g: networkX biGraph 
-    
     """    
     g = nx.Graph()
     g.add_nodes_from(V, bipartite=0)
